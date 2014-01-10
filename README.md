@@ -203,7 +203,7 @@ Step11:Add an update form under views/person/update.ejs
 DELETE
 
 Step12: Add a delete/destroy action under api/controllers/PersonController.js
-
+          <code>
            delete: function (req, res) {
     
 		    var id=req.param("id",null);
@@ -220,6 +220,7 @@ Step12: Add a delete/destroy action under api/controllers/PersonController.js
 		      });
 		
 		}
+          </code>		
  
    --You are done..Enjoy Coding with Sails.js
   Sirin K
