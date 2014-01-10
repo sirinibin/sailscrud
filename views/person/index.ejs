@@ -1,0 +1,6 @@
+<a href="/person/create">+Create</a>
+<ol>
+<% persons.forEach( function( model ){ %>
+  <li><%= model.name %>(<a href="/person/delete/<%= model.id %>">delete</a>|<a href="/person/update/<%= model.id %>">Update</a>|<a href="/person/view/<%=model.id %>">view</a>)</li>
+<% }); %>
+</ol>
